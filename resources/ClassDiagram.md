@@ -1,10 +1,18 @@
-- The program utilizes object-oriented principles with encapsulated classes representing system entities. Inheritance creates hierarchies, such as `Order` from `Customer` and `Rating` from `Driver`.
+- The program utilizes object-oriented principles with encapsulated classes representing system entities.
 
-- Lists in the `DataStore` manage `Customer`, `Driver`, `Order`, `Rating`, and `MenuItem` objects for efficient data operations. Service classes like `OrderService`, `DeliveryService`, and `RatingService` handle business logic.
+- Inheritance creates hierarchies - `Customer` and `Driver` inherit from a base class `User` to share common attributes like `id` and `name`.
 
-- Class Diagram
+- `Order` from `Customer` and `Rating` from `Driver`.
 
-The class diagram represents the entities in the system and their relationships. The diagram shows the classes `Customer`, `Driver`, `MenuItem`, `Order`, `Rating`, `OrderService`, `DeliveryService`, `RatingService`, and `DataStore`, along with their attributes and methods. The relationships between the classes are depicted using arrows to show how the entities are related to each other.
+- Lists in the `DataStore` manage `Customer`, `Driver`, `Order`, `Rating`, and `MenuItem` objects for efficient data operations.
+
+- Service classes like `OrderService`, `DeliveryService`, and `RatingService` handle business logic.
+
+## Class Diagram
+
+The class diagram represents the entities in the system and their relationships. 
+The diagram shows the classes `Customer`, `Driver`, `MenuItem`, `Order`, `Rating`, `OrderService`, `DeliveryService`, `RatingService`, and `DataStore`, along with their attributes and methods. 
+The relationships between the classes are depicted using arrows to show how the entities are related to each other.
 
 
 ```mermaid
