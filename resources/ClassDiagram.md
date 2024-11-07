@@ -1,4 +1,4 @@
-- The program utilizes object-oriented principles with encapsulated classes representing system entities.
+<!-- - The program utilizes object-oriented principles with encapsulated classes representing system entities.
 
 - Inheritance creates hierarchies - `Customer` and `Driver` inherit from a base class `User` to share common attributes like `id` and `name`.
 
@@ -14,7 +14,7 @@ The class diagram represents the entities in the system and their relationships.
 The diagram shows the classes `Customer`, `Driver`, `MenuItem`, `Order`, `Rating`, `OrderService`, `DeliveryService`, `RatingService`, and `DataStore`, along with their attributes and methods. 
 The relationships between the classes are depicted using arrows to show how the entities are related to each other.
 
-
+ -->
 ```mermaid
 classDiagram
     class Customer {
