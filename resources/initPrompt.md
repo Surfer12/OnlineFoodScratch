@@ -12,8 +12,7 @@
         - Email
     - Methods:
         - Place order
-            - Add items to order
-            
+         - Add items to order
         - Get Order status
            - Cancel order
            - Accept Order
