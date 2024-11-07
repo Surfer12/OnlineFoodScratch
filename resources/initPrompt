@@ -1,0 +1,31 @@
+    - Submit a PDF document named "CIS233_GROUP_NAME.pdf" (replace "GROUP_NAME" with your actual group name).
+    - This document should include:
+        - The first version of the system design (Class diagrams).
+        - Explanations of how you applied OOP principles.
+        - Descriptions of the chosen data structures.
+    - One person from each group should submit the document.
+
+- Customer class diagram:
+    - Attributes:
+        - Name
+        - Address
+        - Email
+    - Methods:
+        - Place order
+        - Get Order status
+           - Cancel order
+           - Accept Order
+           - Check Delievery Status
+        - Rate driver(Scale of 1-5) 
+            - Only if order status boolean delivered
+- Driver class diagram:
+    - Attributes:
+        - Name
+        - Location
+        - Rating (Max 10, new ratings replace old ones in FIFO order)
+    - Methods:
+        - Accept order (Processed in First-In, First-Out order)
+        - Reject order (If order is not accepted by driver)
+        - Deliver order (Change order status to delivered)
+        - Update location (Change driver location from one place to another)
+      
